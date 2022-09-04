@@ -1,7 +1,7 @@
 var myNodeList = document.getElementsByTagName("LI");
  for(var i=0; i<myNodeList.length; i++){
     var span=document.createElement("SPAN");
-    var text=document.createTextNode("x");
+    var text=document.createTextNode("(iptal et)");
     span.className="close";
     span.appendChild(text);
     myNodeList[i].appendChild(span);
@@ -29,7 +29,7 @@ function newElement(){
     document.getElementById("myInput").value = "";
     
     var span=document.createElement("SPAN");
-    var text=document.createTextNode("x");
+    var text=document.createTextNode("(iptal et)");
     span.className="close";
     span.appendChild(text);
     li.appendChild(span);
